@@ -16,7 +16,7 @@ Where $L_t$ denotes level, and $S_t$ denotes seasonal part. \
 The optimal lambdas are obtained as follows: \
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/5.jpeg)
 
-Using these parameters, the Halt-Winters model was implemented on the training set. Based on this fitting, the one-day ahead forecast is shown in the figure below:
+Using these parameters, the Halt-Winters model was implemented on the training set. Based on this fitting, the one-day ahead forecast is shown in the figure below: \
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/7.jpeg) \
 This results in the following 4 plots of residuals: \
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/6.jpeg) \
