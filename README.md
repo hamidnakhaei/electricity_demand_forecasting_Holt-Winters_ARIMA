@@ -44,7 +44,7 @@ The SARIMA model can be written as follows: \
 Mcleod and Li test is taken. The results indicate the presence of correlation among the residuals. It can be inferred that ARCH/GARCH models should be used to account for the correlation among the residuals. \
 Based on this fitting, the one-day-ahead forecast is shown in the figure below:
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/14.jpeg) \
-TThe four plots of the residuals is shown in the figure below: \
+The four plots of the residuals is shown in the figure below: \
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/13.jpeg) \
 This figure shows that the variance of the data is a function of time. Additionally, the residuals do not follow a normal distribution. However, this result is the best result that could be derived from the SARIMA model. \
 Moreover, the P-value for the Ljung-Box test is 0.56, which generally assesses the significance of the ACF. Since the P-value is quite substantial, there is no reason to reject the null hypothesis that the remaining ACF values are zero. \
