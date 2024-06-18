@@ -8,6 +8,6 @@ pic \
 
 # Holt-Winters Model 
 The Holt-Winters model, also known as the triple exponential smoothing method, is used for forecasting time series data with seasonality. This model includes three smoothing equations: level, trend, and seasonality. It can be applied in additive or multiplicative forms. The additive model is used here, because seasonality has a constant pattern over time.
-![image](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/assets/154388685/f68862b1-3ea6-44cb-834b-5c46641eb60f)
+
 
 
