@@ -56,11 +56,11 @@ The table below summarizes the performance metrics of this forecast.
 | MPE   | 0.001945        |
 | MAPE   | 0.016        |
 # GARCH Model
-Despite acceptable fitting with the seasonal ARIMA model, residuals' variance indicated remaining autocorrelation, necessitating a GARCH model for variance modeling. This model helps adjust residual variance to be closer to constant over time. An ARIMA model was first fitted, followed by GARCH modeling for residual variance. \
+Despite an acceptable fit with the seasonal ARIMA model, residuals' variance indicated remaining autocorrelation, necessitating a GARCH model for variance modeling. This model helps adjust residual variance to be closer to constant over time. An ARIMA model was first fitted, followed by GARCH modeling for residual variance. \
 After extensive research, GARCH(1,1) was chosen. \
-Estimated GARCH parameters as summarized in the bable below: \
+Estimated GARCH parameters are summarized in the bable below: \
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/15.jpeg) \
 Q-Q plot of the residuals in the GARCH model is shown in the figure below: \
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/16.jpeg)
 # Summary and Conclusions
-After implementing different models, we determined that the seasonal ARIMA model is most appropriate for the given data set. Although the Halt-Winters model closely fits the data, it fails to meet the constant variance assumption, rendering the residuals non-white noise. The GARCH model, on the other hand, can address variance heterogeneity. However, GARCH model is not suitable for forecasting. Therefore, the seasonal ARIMA model is chosen for prediction, providing a balance of accuracy and simplicity.
+After implementing different models, we determined that the seasonal ARIMA model is most appropriate for the given data set. Although the Halt-Winters model closely fits the data, it fails to meet the constant variance assumption, rendering the residuals non-white noise. The GARCH model, on the other hand, can address variance heterogeneity. However, the GARCH model is not suitable for forecasting. Therefore, the seasonal ARIMA model is chosen for prediction, providing a balance of accuracy and simplicity.
