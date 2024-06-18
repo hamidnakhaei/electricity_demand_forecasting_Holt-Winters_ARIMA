@@ -8,19 +8,19 @@ Time series plot of data is shown in the picture below: \
 
 # Holt-Winters Model 
 The Holt-Winters model, also known as the triple exponential smoothing method, is used for forecasting time series data with seasonality. This model includes three smoothing equations: level, trend, and seasonality. It can be applied in additive or multiplicative forms. The additive model is used here, because seasonality has a constant pattern over time. \
-This model can be formulated as follows:
-![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/2.jpeg)
-![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/3.jpeg)
-![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/4.jpeg)
-Where, $L_t$ denotes level, and $S_t$ denots seasonal part.
-the optimal lambda's obtainded as follows:
+This model can be formulated as follows: \
+![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/2.jpeg) \
+![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/3.jpeg) \
+![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/4.jpeg) \
+Where, $L_t$ denotes level, and $S_t$ denots seasonal part. \
+the optimal lambda's obtainded as follows: \
 ![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/5.jpeg)
 
-BAsed on this fitting, the one-day ahead forecast is shown in the figure below:
-![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/7.jpeg)
-This results in the following 4 plots of residuals:
-![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/6.jpeg)
-The table below summarizes the performance metrics of this forecast.
+Based on this fitting, the one-day ahead forecast is shown in the figure below:
+![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/7.jpeg) \
+This results in the following 4 plots of residuals: \
+![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/6.jpeg) \
+The table below summarizes the performance metrics of this forecast. 
 | Metric     | Value |
 | ----------- | ----------- |
 | $R^2$      | 0.969       |
