@@ -28,4 +28,7 @@ The table below summarizes the performance metrics of this forecast.
 | MPE   | 0.003125        |
 | MAPE   | 0.0167        |
 # ARIMA Model 
-
+The ARIMA model, standing for AutoRegressive Integrated Moving Average, is a popular method for time series forecasting, particularly for univariate data. It consists of autoregressive (AR), moving average (MA), and differencing (I) parts. \
+An ARIMA $(p,d,q)$ process can be written as: \
+![](https://github.com/hamidnakhaei/electricity_demand_forecasting_Holt-Winters_ARIMA/blob/c5400c451966bef2b1b70c183839408da6bd019a/Fig/9.jpeg) \
+In this model, $y_t$ is the dependent variable, $\epsilon_t$ are error terms, $B$ is the difference operator, $\phi$'s are AR parameters, $\tetha$'s are MA parameters, $p$ is the number of AR lags, $q$ is the number of MA lags, and $\delta$ is the mean of the time series. It is assumed that $\epsilon_t$ are white noise.
