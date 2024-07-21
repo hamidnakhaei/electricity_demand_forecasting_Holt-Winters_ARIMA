@@ -1,4 +1,4 @@
-# Electricity Demand Forecasting in Iran Using Holt-Winters, ARIMA, and GARCH Methods
+# Electricity Demand Forecasting Using Holt-Winters, ARIMA, and GARCH Methods
 ## Problem Definition 
 All analyses in this project were conducted using the R programming language. In the power industry, balancing electricity production is crucial due to the limited capacity for electricity storage, necessitating production to match demand closely. Forecasting electricity consumption significantly aids in managing distribution and is now one of the most essential requirements for electricity producers and distributors. This project aims to forecast electricity demand using Holt-Winters and ARIMA models and compare their results. A GARCH model is also applied to the data to account for the volatility existing in the nature of electricity demand. The Holt-Winters and ARIMA models produced relatively good results, and the GARCH model addressed ARIMA's issues.
 ## Data Description 
